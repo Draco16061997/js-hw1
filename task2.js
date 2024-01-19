@@ -2,8 +2,8 @@
 
 
 function findGCD(a, b) {
-    a = Math.abs(a);
-    b = Math.abs(b);
+    a = parseInt(a);
+    b = parseInt(b);
   
     while (b) {
       let temp = b;
